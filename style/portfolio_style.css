@@ -1,0 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  font-weight: bold;
+}
+h2 {
+  color: rgba(39, 33, 66, 1);
+  font-weight: bold;
+  font-size: 36px;
+}
+h3 {
+  color: rgba(39, 33, 66, 1);
+  font-size: 24px;
+}
+.intoduction {
+  margin-top: 60px;
+  text-align: center;
+}
