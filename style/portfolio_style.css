@@ -1,3 +1,8 @@
+:root {
+  --branding-color: #272142;
+  --secondary-color: #f9f7fe;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -6,16 +11,30 @@ h1 {
   font-size: 96px;
   font-weight: bold;
 }
+
 h2 {
-  color: rgba(39, 33, 66, 1);
+  color: var(--branding-color);
+  font-size: 24px;
+}
+.upper-section {
+  background: var(--secondary-color);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.intoduction {
+  text-align: center;
+}
+.intoduction p {
+  color: var(--branding-color);
   font-weight: bold;
   font-size: 36px;
 }
-h3 {
-  color: rgba(39, 33, 66, 1);
-  font-size: 24px;
-}
-.intoduction {
-  margin-top: 60px;
-  text-align: center;
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18;
+  padding: 18px 36px;
+  margin-top: 30px;
 }
