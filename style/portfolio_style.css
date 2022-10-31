@@ -52,7 +52,7 @@ p {
   margin-top: 40px;
 }
 
-.projects p {
+.projects {
 }
 
 .project-description {
@@ -115,4 +115,20 @@ p {
   height: 560px;
   display: block;
   margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  .projects {
+    text-align: center;
+  }
+  .projects p {
+    text-align: justify;
+  }
 }
