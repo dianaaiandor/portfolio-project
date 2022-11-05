@@ -96,8 +96,7 @@ a.active-page,
 }
 
 .project-description h3 {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .btn-branding-projects {
@@ -114,47 +113,13 @@ a.active-page,
   border-radius: 4px;
 }
 
-.img-frame-style {
-  width: 560px;
-  height: auto;
-
-  display: block;
-  margin: 0 auto;
-}
-.project-img-style {
+.project-img {
   width: 560px;
   height: auto;
   border-radius: 4px;
   box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.4);
   display: block;
   margin: 0 auto;
-}
-
-.img-frame-weather {
-  width: 560px;
-  height: auto;
-
-  display: block;
-  margin: 0 auto;
-}
-.project-img-weather {
-  width: 560px;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.4);
-  display: block;
-  margin: 0 auto;
-}
-
-.img-frame-dictionary {
-  width: 560px;
-}
-.project-img-dictionary {
-  width: 560px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.4);
 }
 
 .about-section,
@@ -207,18 +172,33 @@ a.active-page,
   }
 }
 @media (max-width: 576px) {
+  body {
+    padding: 0 15px;
+  }
   h1 {
     font-size: 40px;
   }
   h3 {
-    font-size: 40px;
-    margin-top: 0px;
+    font-size: 30px;
+  }
+  .upper-section {
+    padding: 10px 0;
+  }
+  .intoduction p {
+    font-size: 25px;
+    margin: 20px 0 5px;
   }
   .projects {
     text-align: center;
   }
   .projects p {
     text-align: justify;
+  }
+  .project-description {
+    margin: 0;
+  }
+  .project-description h3 {
+    margin: 0 0 15px;
   }
   .page-section-content h1 {
     font-size: 40px;
@@ -229,5 +209,9 @@ a.active-page,
   }
   .page-section-content {
     padding: 10px;
+  }
+  .navigation-menu li {
+    font-size: 14px;
+    margin-left: 5px;
   }
 }
