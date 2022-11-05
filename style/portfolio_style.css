@@ -37,6 +37,9 @@ p {
   padding: 40px 0px;
   text-align: center;
 }
+.upper-wrap {
+  padding: 40px 12px;
+}
 .logo {
   height: 40px;
   display: flex;
@@ -124,7 +127,7 @@ a.active-page,
 
 .about-section,
 .work-section {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 .page-section-content h1 {
   font-size: 64px;
@@ -172,9 +175,6 @@ a.active-page,
   }
 }
 @media (max-width: 576px) {
-  body {
-    padding: 0 15px;
-  }
   h1 {
     font-size: 40px;
   }
