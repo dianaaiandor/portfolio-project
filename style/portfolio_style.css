@@ -34,8 +34,36 @@ p {
 
 .upper-section {
   background: var(--secondary-color);
-  padding: 200px 0px;
+  padding: 40px 0px;
   text-align: center;
+}
+.logo {
+  height: 40px;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-menu a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.navigation-menu li {
+  display: inline;
+  line-height: 44px;
+  margin-left: 40px;
+}
+a.active-page,
+.navigation-menu a:hover {
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 
 .intoduction {
@@ -46,6 +74,7 @@ p {
   color: var(--branding-color);
   font-weight: bold;
   font-size: 36px;
+  margin-top: 100px;
 }
 
 .btn-branding {
@@ -59,9 +88,6 @@ p {
 
 .btn-branding:hover {
   background: var(--primary-color);
-}
-
-.projects {
 }
 
 .project-description {
@@ -91,14 +117,15 @@ p {
 .img-frame-style {
   width: 560px;
   height: auto;
-  background: var(--secondary-color);
+
   display: block;
   margin: 0 auto;
 }
 .project-img-style {
-  width: 540px;
+  width: 560px;
+  height: auto;
   border-radius: 4px;
-  box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.4);
   display: block;
   margin: 0 auto;
 }
@@ -106,14 +133,15 @@ p {
 .img-frame-weather {
   width: 560px;
   height: auto;
-  background: var(--secondary-color);
+
   display: block;
   margin: 0 auto;
 }
 .project-img-weather {
-  width: 540px;
+  width: 560px;
+  height: auto;
   border-radius: 4px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.4);
   display: block;
   margin: 0 auto;
 }
@@ -122,10 +150,11 @@ p {
   width: 560px;
 }
 .project-img-dictionary {
-  width: 100%;
-  height: 560px;
+  width: 560px;
+  height: auto;
   display: block;
   margin: 0 auto;
+  box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.4);
 }
 
 .about-section,
@@ -155,6 +184,9 @@ p {
 
 .page-section-content {
   padding-left: 40px;
+}
+.project-section {
+  margin-bottom: 70px;
 }
 .work-section p {
   font-size: 14px;
