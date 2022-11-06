@@ -18,6 +18,7 @@ h1 {
 h2 {
   color: var(--branding-color);
   font-size: 24px;
+  margin-bottom: 40px;
 }
 h3 {
   font-family: "Playfair Display", serif;
@@ -27,6 +28,11 @@ h4 {
   font-family: var(--default-font);
   font-weight: bold;
 }
+h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: bold;
+}
 
 p {
   line-height: 30px;
@@ -34,7 +40,7 @@ p {
 
 .upper-section {
   background: var(--secondary-color);
-  padding: 40px 0px;
+  padding: 40px 0px 130px;
   text-align: center;
 }
 .upper-wrap {
@@ -56,6 +62,7 @@ ul {
 .navigation-menu a {
   text-decoration: none;
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 
 .navigation-menu li {
@@ -66,7 +73,6 @@ ul {
 a.active-page,
 .navigation-menu a:hover {
   color: var(--primary-color);
-  transition: all 200ms ease-in-out;
 }
 
 .intoduction {
@@ -86,11 +92,14 @@ a.active-page,
   color: #ffffff;
   font-size: 18;
   padding: 18px 36px;
-  margin-top: 40px;
 }
 
 .btn-branding:hover {
   background: var(--primary-color);
+  color: var(--branding-color);
+}
+.projects {
+  margin-top: 60px;
 }
 
 .project-description {
@@ -113,6 +122,7 @@ a.active-page,
 
 .btn-branding-projects:hover {
   border: 1px solid var(--primary-color);
+  color: var(--branding-color);
   border-radius: 4px;
 }
 
@@ -160,7 +170,59 @@ a.active-page,
   font-size: 14px;
 }
 
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+footer .contact-box p {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--branding-color);
+  display: flex;
+  justify-content: center;
+  transition: all 150ms ease-in-out;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links {
+  text-align: center;
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 8px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  margin: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
 @media (max-width: 900px) {
+  h5 {
+    font-size: 30px;
+  }
+
   .about-section,
   .page-section-content {
     margin: 40px auto;
@@ -172,6 +234,12 @@ a.active-page,
   }
   .page-section-content {
     margin-bottom: 40px;
+  }
+  footer .contact-box {
+    padding: 10px;
+  }
+  footer .email-link {
+    font-size: 18px;
   }
 }
 @media (max-width: 576px) {
