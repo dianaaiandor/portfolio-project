@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="the datailed information about Di Rodnaia professional experience and knowledge in front-end"
+    />
+    <title>About Di Rodnaia is a front-end developer based in Poland</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -34,21 +38,27 @@
   <body>
     <div class="container upper-wrap">
       <nav class="navigation-menu">
-        <img
-          src="/images/logo.png"
-          alt="logo SheCodes"
-          class="logo d-none d-md-block"
-        />
-        <img
-          src="/images/logo-small.png"
-          alt="logo SheCodes"
-          class="logo d-block d-md-none"
-        />
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            alt="logo SheCodes"
+            class="logo d-none d-md-block"
+        /></a>
+
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo-small.png"
+            alt="logo SheCodes"
+            class="logo d-block d-md-none"
+        /></a>
+
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html" class="active-page">About</a></li>
-          <li><a href="/work.html" class="">Work</a></li>
-          <li><a href="/contacts.html" class=""> Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li>
+            <a href="/about.html" class="active-page" title="About Di">About</a>
+          </li>
+          <li><a href="/work.html" title="Di's works">Work</a></li>
+          <li><a href="/contacts.html" title="Di's contacts"> Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +67,7 @@
       <div class="row">
         <div class="col-lg">
           <div class="page-section-content mb-5">
-            <h1>Hello, I'm Diana Rodnaia</h1>
+            <h1>Hello, I'm Di Rodnaia</h1>
             <h2>Front-end developer, based in Poland</h2>
             <p>
               For anyone who wants to start learning code, this workshop is very
@@ -65,13 +75,13 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" title="my projects" class="btn btn-branding"
+            <a href="/work.html" title="Work projects" class="btn btn-branding"
               >See my projects</a
             >
           </div>
         </div>
         <div class="col-lg">
-          <img src="images/diana.jpg" alt="Diana Rodnaia" class="img-fluid" />
+          <img src="images/di.jpg" alt="Di photo" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -85,27 +95,49 @@
             </p>
           </div>
           <div>
-            <a href="#" class="btn btn-branding mt-3 d-none d-md-flex"
+            <a
+              href="/contacts.html"
+              title="Contact me"
+              class="btn btn-branding mt-3 d-none d-md-flex"
               >Contact me</a
             >
           </div>
         </div>
-        <a href="mailto:rodnayadi@gmail.com" class="email-link"
+        <a
+          href="mailto:rodnayadi@gmail.com"
+          class="email-link"
+          title="Email to Di"
           >rodnayadi@gmail.com</a
         >
         <div class="social-links">
-          <a href="https://twitter.com/rOxcWZWsxsUZ01n" target="_blank"
+          <a
+            href="https://twitter.com/rOxcWZWsxsUZ01n"
+            target="_blank"
+            title="Open the twitter profile"
             ><i class="fa-brands fa-twitter"></i
           ></a>
-          <a href="https://github.com/dianaaiandor" target="_blank"
+          <a
+            href="https://github.com/dianaaiandor"
+            target="_blank"
+            title="Open the github profile"
             ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/diana-rodnaia-467312124/"
             target="_blank"
+            title="Open the linkedin profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Di, and it is
+          <a
+            href="https://github.com/dianaaiandor/portfolio-project.git"
+            title="Open the source code"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

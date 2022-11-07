@@ -137,7 +137,7 @@ a.active-page,
 
 .about-section,
 .work-section {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .page-section-content h1 {
   font-size: 64px;
@@ -216,6 +216,10 @@ footer .social-links a {
 footer .social-links a:hover {
   background: var(--primary-color);
   color: #ffffff;
+}
+
+footer a {
+  color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
