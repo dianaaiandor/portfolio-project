@@ -236,6 +236,9 @@ footer a {
   .about-section h1 {
     font-size: 50px;
   }
+  .work-section h1 {
+    font-size: 50px;
+  }
   .page-section-content {
     margin-bottom: 40px;
   }
@@ -256,6 +259,9 @@ footer a {
   }
   h3 {
     font-size: 30px;
+  }
+  .upper-wrap {
+    padding: 10px 12px;
   }
   .upper-section {
     padding: 10px 0;
